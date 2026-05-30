@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a5eedf5-b790-4cdf-a05d-794c640db40d" name="更改" comment="BERR">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/BERR/berr_hgnetv2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/BERR/include/berr_r50vd.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/BERR/include/dataloader.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/BERR/include/optimizer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/dataset/darkface_detection.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/dataset/exdark_detection.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/dataset/llvip_detection.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/runtime.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/yaml_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/yaml_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/cifar10/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/coco/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/coco/coco_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/coco/coco_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/coco/coco_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/dataloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/functional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/dist_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/visualizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/PENet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/arch/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/arch/classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/dla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/hgnetv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/presnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/regnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/test_resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/backbone/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/criterion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nn/criterion/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optim/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optim/amp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optim/ema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optim/optim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solver/det_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solver/det_solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solver/solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/berr_criterion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/berr_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/berr_postprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/berr_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/box_ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/denoising.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/hybrid_encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/matcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zoo/berr/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/export_onnx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/infer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shenjunyui&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:shenjunyui/BERR.git&quot;,
+    &quot;accountId&quot;: &quot;be765839-38f1-48fb-b357-033ac8dabefb&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3EDJm2i75iTY46k5nZT2MhszMqs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/sjy/code/BERR&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sjy\code\RG-DETR\RG-DETR\configs\rgdetr" />
+      <recent name="D:\sjy\code\RG-DETR\RG-DETR\configs\dataset" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4a5eedf5-b790-4cdf-a05d-794c640db40d" name="更改" comment="" />
+      <created>1779707361397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779707361397</updated>
+    </task>
+    <task id="LOCAL-00001" summary="RGDETRv1">
+      <option name="closed" value="true" />
+      <created>1779713690483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779713690483</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BERR">
+      <option name="closed" value="true" />
+      <created>1780140579896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780140579896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RGDETRv1" />
+    <MESSAGE value="BERR" />
+    <option name="LAST_COMMIT_MESSAGE" value="BERR" />
+  </component>
+</project>
