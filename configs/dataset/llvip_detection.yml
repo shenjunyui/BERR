@@ -1,0 +1,33 @@
+task: detection
+metric: COCO
+num_classes: 1
+
+train_dataloader:
+  type: DataLoader
+  dataset:
+    type: CocoDetection
+    img_folder: 'path to your dataset'
+    ann_file: 'path to your annotation'
+    transforms:
+      type: Compose
+      ops: ~
+  shuffle: True
+  batch_size: 8
+  num_workers: 4
+  drop_last: True
+
+
+val_dataloader:
+  type: DataLoader
+  dataset:
+    type: CocoDetection
+    img_folder: 'path to your dataset'
+    ann_file: 'path to your annotation'
+    transforms:
+      type: Compose
+      ops: ~
+
+  shuffle: False
+  batch_size: 8
+  num_workers: 4
+  drop_last: False
