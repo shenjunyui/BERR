@@ -41,7 +41,7 @@ Notes:
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-name/BERR.git
+git clone https://github.com/shenjunyui/BERR.git
 cd BERR
 ```
 
